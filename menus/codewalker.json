@@ -1,0 +1,26 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Toggle codewalker",
+        "command": "codewalker:toggle"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Codewalker",
+      "submenu": [
+        {
+          "label": "Codewalker",
+          "submenu": [
+            {
+              "label": "Toggle",
+              "command": "codewalker:toggle"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
